@@ -1,12 +1,10 @@
 #登录接口设计测试用例
-import re
 
 import pytest
 from jsonschema import validate
 from utils.request_util import host, Request
 
-
-# url=""
+@pytest.mark.order(1)
 class TestLogin:
     url=host+"user/login"
     schema={

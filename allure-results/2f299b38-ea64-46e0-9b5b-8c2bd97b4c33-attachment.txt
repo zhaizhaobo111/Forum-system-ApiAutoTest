@@ -1,0 +1,3 @@
+[32mINFO    [0m utils.logger_util:request_util.py:8 准备发起get请求，url:http://127.0.0.1:58080/reply/getReplies
+[32mINFO    [0m utils.logger_util:request_util.py:9 接口信息:{'params': {'articleId': ''}, 'headers': {'Cookie': 'JSESSIONID=FED8ACDD55C420658144458017478C78', 'Accept': 'application/json'}}
+[32mINFO    [0m utils.logger_util:request_util.py:11 接口响应状态码：200

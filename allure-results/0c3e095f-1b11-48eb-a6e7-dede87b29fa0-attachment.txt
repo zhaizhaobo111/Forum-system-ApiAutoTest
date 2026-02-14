@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:24 准备发起post请求，url:http://127.0.0.1:58080/article/create
+[32mINFO    [0m utils.logger_util:request_util.py:25 接口信息:{'json': {'boardId': '', 'title': 'test', 'content': 'test'}, 'headers': {'content-type': 'application/json', 'cookie': 'JSESSIONID=FED8ACDD55C420658144458017478C78'}}
+[32mINFO    [0m utils.logger_util:request_util.py:29 接口响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:32 接口响应内容是：{'code': 1000, 'message': "Required request parameter 'boardId' for method parameter type Long is not present", 'data': None}

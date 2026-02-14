@@ -10,7 +10,14 @@ class  Request:
         r=requests.get(url=url,**kwargs)
         self.log.info('接口响应状态码：{}'.format(r.status_code))
         self.log.info('接口响应''内容是：{}'.format(r.json()))
+
+        try:
+            self.log.info('接口响应内容是：{}'.format(r.json()))
+        except:
+            self.log.info('接口响应内容是：{}'.format(r.text))
         return r
+
+
 
 
     def post(self, url, **kwargs):
@@ -20,5 +27,8 @@ class  Request:
          r = requests.post(url=url, **kwargs)
 
          self.log.info('接口响应状态码：{}'.format(r.status_code))
-         self.log.info('接口响应内容是：{}'.format(r.json()))
+         try:
+             self.log.info('接口响应内容是：{}'.format(r.json()))
+         except:
+             self.log.info('接口响应内容是：{}'.format(r.text))
          return r

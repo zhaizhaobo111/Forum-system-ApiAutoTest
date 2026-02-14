@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:24 准备发起post请求，url:http://127.0.0.1:58080/user/login
+[32mINFO    [0m utils.logger_util:request_util.py:25 接口信息:{'data': {'username': 'user', 'password': '123123'}}
+[32mINFO    [0m utils.logger_util:request_util.py:29 接口响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:32 接口响应内容是：{'code': 1002, 'message': '参数校验失败', 'data': None}

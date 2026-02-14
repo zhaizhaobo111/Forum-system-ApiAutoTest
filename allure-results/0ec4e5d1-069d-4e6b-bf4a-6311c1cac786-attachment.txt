@@ -1,0 +1,5 @@
+[32mINFO    [0m utils.logger_util:request_util.py:8 准备发起get请求，url:http://127.0.0.1:58080/reply/getReplies
+[32mINFO    [0m utils.logger_util:request_util.py:9 接口信息:{'params': {'articleId': ''}, 'headers': {'Cookie': 'JSESSIONID=911283800184C0EF0AFD68125CB08CF6', 'Accept': 'application/json'}}
+[32mINFO    [0m utils.logger_util:request_util.py:11 接口响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:12 接口响应内容是：{'code': 1000, 'message': "Required request parameter 'articleId' for method parameter type Long is present but converted to null", 'data': None}
+[32mINFO    [0m utils.logger_util:request_util.py:15 接口响应内容是：{'code': 1000, 'message': "Required request parameter 'articleId' for method parameter type Long is present but converted to null", 'data': None}

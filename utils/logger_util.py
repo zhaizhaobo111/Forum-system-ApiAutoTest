@@ -1,7 +1,7 @@
 import logging
 import os.path
 import time
-# 继承（）
+
 class infoFilter(logging.Filter):
     def filter(self, record):
         return  record.levelno==logging.INFO
